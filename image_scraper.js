@@ -3,7 +3,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const targetUrl = 'https://ogassociatestech.com/';
+const targetUrl = 'Enter your target URL here'; // Replace with the URL you want to scrape
 const downloadDir = path.join(__dirname, 'public', 'images', 'og_site');
 
 if (!fs.existsSync(downloadDir)) {
