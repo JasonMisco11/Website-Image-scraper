@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const targetUrl = 'Enter your target URL here'; // Replace with the URL you want to scrape
-const downloadDir = path.join(__dirname, 'public', 'images', 'og_site');
+const downloadDir = path.join(__dirname, 'public', 'images');
 
 if (!fs.existsSync(downloadDir)) {
   fs.mkdirSync(downloadDir, { recursive: true });
